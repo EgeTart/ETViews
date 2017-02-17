@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ETViews_Example' do
+  pod 'ETViews', :path => '../'
+
+  target 'ETViews_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
