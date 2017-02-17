@@ -28,6 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Yongxiao Gao/ETViews.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.subspec 'ETViews' do |ss|
+    ss.dependency 'SnapKit'
+  end
+
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ETViews/Classes/**/*'
